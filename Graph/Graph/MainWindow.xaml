@@ -1,0 +1,15 @@
+﻿<Window x:Class="Graph.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Graph"
+        mc:Ignorable="d"
+        Title="Рисование" Height="368" Width="800" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Canvas x:Name="g" HorizontalAlignment="Left" Height="287" Margin="10,10,0,0" VerticalAlignment="Top" Width="757" Background="#FFCFE8E6"/>
+        <Button Content="Рисовать" HorizontalAlignment="Left" Margin="10,302,0,0" VerticalAlignment="Top" Width="186" Click="cmDraw"/>
+        <Button Content="Случайные линии" HorizontalAlignment="Left" Margin="201,302,0,0" VerticalAlignment="Top" Width="186" Click="cmLines"/>
+
+    </Grid>
+</Window>
